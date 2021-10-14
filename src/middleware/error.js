@@ -1,4 +1,4 @@
-module.exports = (req, res, next) => {
+module.exports = (req, res, next, error) => {
   console.log('IMPLEMENT ERROR MIDDLEWARE')
 
   // @TODO: log every error message
