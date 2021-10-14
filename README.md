@@ -1,2 +1,13 @@
-# js-workshop-backend
-JS workshop - example backend app
+# Express based backend server
+
+## Installation
+
+```
+npm install 
+```
+
+## Run the server
+
+```
+npm run start
+```

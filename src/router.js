@@ -1,6 +1,7 @@
 const express = require('express')
 const req = require('express/lib/request')
 const tasksController = require('./controllers/tasksController')
+const { badRequestError } = require('./utils/errors')
 
 const router = express.Router()
 
@@ -14,6 +15,6 @@ router
   .post(tasksController.createTask)
 
 router.get('/error', (req, res) => {
-  throw new Error('error message')
+  throw badRequestError;
 })
 module.exports = router
