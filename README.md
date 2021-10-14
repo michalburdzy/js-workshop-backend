@@ -11,3 +11,8 @@ npm install
 ```
 npm run start
 ```
+
+## Project dependecies
+- [Express](https://www.npmjs.com/package/express)
+
+## **This is educational project**
