@@ -1,9 +1,6 @@
-module.exports = (req, res, next, error) => {
-  console.log('IMPLEMENT ERROR MIDDLEWARE')
+const { internalError } = require('../utils/errors')
 
-  // @TODO: log every error message
-
-  // @TODO: parse error response to always return json response in format { code: 400, message: 'Bad Request' }
-
-  next()
+module.exports = (error, req, res, next) => {
+  console.log(internalError)
+  return res.send(internalError)
 }
