@@ -1,0 +1,27 @@
+{
+  "name": "js-workshop-backend",
+  "version": "1.0.0",
+  "description": "JS workshop - example backend app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmicalt/js-workshop-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmicalt/js-workshop-backend/issues"
+  },
+  "homepage": "https://github.com/mmicalt/js-workshop-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
